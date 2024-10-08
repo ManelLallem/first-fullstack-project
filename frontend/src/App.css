@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: rgb(245, 245, 245);
+  padding: 60px 15%;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+}
+h1{
+  margin-bottom: 40px;
+  color: rgb(44, 175, 77);
+}
+h2{
+  font-size: 42px;
+}
+input{
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 10px;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(44, 175, 77);
+  font-size: 18px;
+}
